@@ -18,10 +18,13 @@ public class EmpManagerLoginController extends HttpServlet {
         //1、收参
         String username = request.getParameter("username");
         String password = request.getParameter("password");
+        //此处输入的‘验证码’是通过登陆界面输入的参数获取到的
         String inputVcode = request.getParameter("inputVcode");
 
         //2、获取验证码
+        //此处的验证码是通过session（通过页面图片加载的时候将值赋到session中的）中获取的
         String codes = (String) request.getSession().getAttribute("codes");
+        //若页面输入的‘验证码’非空，且页面输入的‘验证码’与存入session中的‘验证码’相等，则验证码校验通过
         if (!inputVcode.isEmpty() && inputVcode.equalsIgnoreCase(codes)) {
             //3、调用业务方法实现登录
             EmpManagerService empManagerService = new EmpManagerServiceImpl();
