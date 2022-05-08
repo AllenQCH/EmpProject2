@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  <h3>复制这个地址登陆去：http://localhost:8080/empproject/manager/safe/removeEmpController</h3>
   </body>
 </html>

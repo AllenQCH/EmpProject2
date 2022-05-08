@@ -7,24 +7,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc8cd306-ced2-4cb2-84ae-988ef5dc86f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/qf/controller/RemoveEmpController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/dao/EmpDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/dao/EmpDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/dao/impl/EmpDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/dao/impl/EmpDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/jsp/ShowAllEmpJSP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/jsp/ShowAllEmpJSP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/service/EmpService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/service/EmpService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/service/impl/EmpServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/service/impl/EmpServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/com/qf/dao/EmpDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EmpProject/com/qf/dao/EmpDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/com/qf/dao/impl/EmpDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EmpProject/com/qf/dao/impl/EmpDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/com/qf/jsp/ShowAllEmpJSP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EmpProject/com/qf/jsp/ShowAllEmpJSP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/com/qf/service/EmpService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EmpProject/com/qf/service/EmpService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/com/qf/service/impl/EmpServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EmpProject/com/qf/service/impl/EmpServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qf/dao/EmpDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qf/dao/EmpDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qf/dao/impl/EmpDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qf/dao/impl/EmpDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qf/jsp/ShowAllEmpJSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qf/jsp/ShowAllEmpJSP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qf/service/EmpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qf/service/EmpService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qf/service/impl/EmpServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qf/service/impl/EmpServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/controller/CreateCodeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/controller/EmpManagerLoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/controller/ShowAllEmpController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/dao/EmpDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/dao/EmpManagerDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/dao/impl/EmpDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/dao/impl/EmpManagerDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/entity/Emp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/entity/EmpManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/filter/CheckFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/filter/EncodingFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/jsp/ShowAllEmpJSP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/service/EmpManagerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/service/EmpService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/service/impl/EmpManagerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/service/impl/EmpServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/com/qf/utils/DbUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/classes/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/lib/ValidateCode.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/lib/commons-dbutils-1.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/lib/druid-1.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.48.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EmpProject_war_exploded/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/com/qf/controller/CreateCodeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/com/qf/controller/EmpManagerLoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/com/qf/controller/ShowAllEmpController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/com/qf/dao/EmpDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/com/qf/dao/EmpManagerDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/com/qf/dao/impl/EmpDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/com/qf/dao/impl/EmpManagerDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/com/qf/entity/Emp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/com/qf/entity/EmpManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/com/qf/filter/CheckFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/com/qf/filter/EncodingFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/com/qf/jsp/ShowAllEmpJSP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/com/qf/service/EmpManagerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/com/qf/service/EmpService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/com/qf/service/impl/EmpManagerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/com/qf/service/impl/EmpServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/com/qf/utils/DbUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EmpProject/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +208,7 @@
       <option name="presentableId" value="Default" />
       <updated>1651974299245</updated>
       <workItem from="1651974301006" duration="317000" />
-      <workItem from="1651987634288" duration="9946000" />
+      <workItem from="1651987634288" duration="11529000" />
     </task>
     <servers />
   </component>
@@ -220,74 +247,74 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1651994559536" />
-    <state width="1024" height="183" key="GridCell.Tab.0.bottom" timestamp="1652002209957">
+    <state width="1024" height="221" key="GridCell.Tab.0.bottom" timestamp="1652005067008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="183" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1652002209957" />
-    <state width="1024" height="183" key="GridCell.Tab.0.center" timestamp="1652002209957">
+    <state width="1024" height="221" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1652005067008" />
+    <state width="1024" height="221" key="GridCell.Tab.0.center" timestamp="1652005067008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="183" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1652002209957" />
-    <state width="1024" height="183" key="GridCell.Tab.0.left" timestamp="1652002209957">
+    <state width="1024" height="221" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1652005067008" />
+    <state width="1024" height="221" key="GridCell.Tab.0.left" timestamp="1652005067008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="183" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1652002209957" />
-    <state width="1024" height="183" key="GridCell.Tab.0.right" timestamp="1652002209957">
+    <state width="1024" height="221" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1652005067008" />
+    <state width="1024" height="221" key="GridCell.Tab.0.right" timestamp="1652005067008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="183" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1652002209957" />
-    <state width="1024" height="183" key="GridCell.Tab.1.bottom" timestamp="1652002209957">
+    <state width="1024" height="221" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1652005067008" />
+    <state width="1024" height="221" key="GridCell.Tab.1.bottom" timestamp="1652005067008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="183" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1652002209957" />
-    <state width="1024" height="183" key="GridCell.Tab.1.center" timestamp="1652002209957">
+    <state width="1024" height="221" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1652005067008" />
+    <state width="1024" height="221" key="GridCell.Tab.1.center" timestamp="1652005067008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="183" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1652002209957" />
-    <state width="1024" height="183" key="GridCell.Tab.1.left" timestamp="1652002209957">
+    <state width="1024" height="221" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1652005067008" />
+    <state width="1024" height="221" key="GridCell.Tab.1.left" timestamp="1652005067008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="183" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1652002209957" />
-    <state width="1024" height="183" key="GridCell.Tab.1.right" timestamp="1652002209957">
+    <state width="1024" height="221" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1652005067008" />
+    <state width="1024" height="221" key="GridCell.Tab.1.right" timestamp="1652005067008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="183" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1652002209957" />
-    <state width="1024" height="183" key="GridCell.Tab.2.bottom" timestamp="1652002209781">
+    <state width="1024" height="221" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1652005067008" />
+    <state width="1024" height="221" key="GridCell.Tab.2.bottom" timestamp="1652005066752">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="183" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1652002209781" />
-    <state width="1024" height="183" key="GridCell.Tab.2.center" timestamp="1652002209780">
+    <state width="1024" height="221" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1652005066752" />
+    <state width="1024" height="221" key="GridCell.Tab.2.center" timestamp="1652005066752">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="183" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1652002209780" />
-    <state width="1024" height="183" key="GridCell.Tab.2.left" timestamp="1652002209780">
+    <state width="1024" height="221" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1652005066752" />
+    <state width="1024" height="221" key="GridCell.Tab.2.left" timestamp="1652005066752">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="183" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1652002209780" />
-    <state width="1024" height="183" key="GridCell.Tab.2.right" timestamp="1652002209781">
+    <state width="1024" height="221" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1652005066752" />
+    <state width="1024" height="221" key="GridCell.Tab.2.right" timestamp="1652005066752">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="183" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1652002209781" />
-    <state width="1024" height="183" key="GridCell.Tab.3.bottom" timestamp="1652002209781">
+    <state width="1024" height="221" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1652005066752" />
+    <state width="1024" height="221" key="GridCell.Tab.3.bottom" timestamp="1652005066752">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="183" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1652002209781" />
-    <state width="1024" height="183" key="GridCell.Tab.3.center" timestamp="1652002209781">
+    <state width="1024" height="221" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1652005066752" />
+    <state width="1024" height="221" key="GridCell.Tab.3.center" timestamp="1652005066752">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="183" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1652002209781" />
-    <state width="1024" height="183" key="GridCell.Tab.3.left" timestamp="1652002209781">
+    <state width="1024" height="221" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1652005066752" />
+    <state width="1024" height="221" key="GridCell.Tab.3.left" timestamp="1652005066752">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="183" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1652002209781" />
-    <state width="1024" height="183" key="GridCell.Tab.3.right" timestamp="1652002209781">
+    <state width="1024" height="221" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1652005066752" />
+    <state width="1024" height="221" key="GridCell.Tab.3.right" timestamp="1652005066752">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="183" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1652002209781" />
-    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1651997583881">
+    <state width="1024" height="221" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1652005066752" />
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1652005262857">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1651997583881" />
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1652005262857" />
     <state x="626" y="290" width="642" height="534" key="find.popup" timestamp="1652000482586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
