@@ -10,10 +10,11 @@ import java.sql.SQLException;
 
 public class EmpManagerDaoImpl implements EmpManagerDao {
     private QueryRunner queryRunner = new QueryRunner();
+
     @Override
     public EmpManager select(String username) {
         try {
-            EmpManager empManager = queryRunner.query(DbUtils.getConnection(),"select * from empmanager where username =?",new BeanHandler<EmpManager>(EmpManager.class),username);
+            EmpManager empManager = queryRunner.query(DbUtils.getConnection(), "select * from empmanager where username =?", new BeanHandler<EmpManager>(EmpManager.class), username);
             return empManager;
         } catch (SQLException e) {
             e.printStackTrace();

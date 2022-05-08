@@ -11,11 +11,11 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 
-@WebServlet(name = "ShowAllEmpJSP",value = "/manager/safe/showAllEmpJSP")
+@WebServlet(name = "ShowAllEmpJSP", value = "/manager/safe/showAllEmpJSP")
 public class ShowAllEmpJSP extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //1、获取集合数据
-        List<Emp> emps = (List<Emp>)request.getAttribute("emps");
+        List<Emp> emps = (List<Emp>) request.getAttribute("emps");
 
         PrintWriter printWriter = response.getWriter();
 
@@ -33,13 +33,13 @@ public class ShowAllEmpJSP extends HttpServlet {
         printWriter.println("<td>年龄</td>");
         printWriter.println("<td>操作</td>");
         printWriter.println("</tr>");
-        for (Emp emp:emps) {
+        for (Emp emp : emps) {
             printWriter.println("<tr>");
-            printWriter.println("<td>"+emp.getId()+"</td>");
-            printWriter.println("<td>"+emp.getName()+"</td>");
-            printWriter.println("<td>"+emp.getSalary()+"</td>");
-            printWriter.println("<td>"+emp.getAge()+"</td>");
-            printWriter.println("<td><a href='"+request.getContextPath()+"/manager/safe/removeEmpController?id="+emp.getId()+"'>删除</a></td>");
+            printWriter.println("<td>" + emp.getId() + "</td>");
+            printWriter.println("<td>" + emp.getName() + "</td>");
+            printWriter.println("<td>" + emp.getSalary() + "</td>");
+            printWriter.println("<td>" + emp.getAge() + "</td>");
+            printWriter.println("<td><a href='" + request.getContextPath() + "/manager/safe/removeEmpController?id=" + emp.getId() + "'>删除</a></td>");
             printWriter.println("<td>修改</td>");
             printWriter.println("</tr>");
         }

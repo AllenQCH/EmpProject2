@@ -12,10 +12,11 @@ import java.util.List;
 
 public class EmpDaoImpl implements EmpDao {
     private QueryRunner queryRunner = new QueryRunner();
+
     @Override
     public List<Emp> selectAll() {
         try {
-            List<Emp>  emps= queryRunner.query(DbUtils.getConnection(),"select * from emp;",new BeanListHandler<Emp>(Emp.class));
+            List<Emp> emps = queryRunner.query(DbUtils.getConnection(), "select * from emp;", new BeanListHandler<Emp>(Emp.class));
             return emps;
         } catch (SQLException e) {
             e.printStackTrace();
@@ -26,7 +27,7 @@ public class EmpDaoImpl implements EmpDao {
     @Override
     public int delete(int id) {
         try {
-            int result=queryRunner.update(DbUtils.getConnection(),"delete from emp where id =?",id);
+            int result = queryRunner.update(DbUtils.getConnection(), "delete from emp where id =?", id);
             return result;
         } catch (SQLException e) {
             e.printStackTrace();

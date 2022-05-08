@@ -12,15 +12,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EmpServiceImpl implements EmpService {
-    private EmpDao  empDao = new EmpDaoImpl();
+    private EmpDao empDao = new EmpDaoImpl();
 
     @Override
     public List<Emp> showAllEmp() {
-        List<Emp>   emps = new ArrayList<>();
+        List<Emp> emps = new ArrayList<>();
         try {
             DbUtils.begin();
-            List<Emp>   temps = empDao.selectAll();
-            if (temps!=null) {
+            List<Emp> temps = empDao.selectAll();
+            if (temps != null) {
                 emps = temps;
             }
             DbUtils.commit();

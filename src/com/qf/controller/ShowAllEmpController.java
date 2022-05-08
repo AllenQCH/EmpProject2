@@ -12,16 +12,16 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(name = "ShowAllEmpController",value = "/manager/safe/showAllEmpController")
+@WebServlet(name = "ShowAllEmpController", value = "/manager/safe/showAllEmpController")
 public class ShowAllEmpController extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //权限验证（交给过滤器）
         EmpService empService = new EmpServiceImpl();
         List<Emp> emps = empService.showAllEmp();
 
-        request.setAttribute("emps",emps);
+        request.setAttribute("emps", emps);
 
-        request.getRequestDispatcher("/manager/safe/showAllEmpJSP").forward(request,response);
+        request.getRequestDispatcher("/manager/safe/showAllEmpJSP").forward(request, response);
 
     }
 
