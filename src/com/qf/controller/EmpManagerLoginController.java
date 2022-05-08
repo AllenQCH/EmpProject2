@@ -33,7 +33,7 @@ public class EmpManagerLoginController extends HttpServlet {
                 HttpSession session = request.getSession();
                 session.setAttribute("empManager",empManager);
                 //跳转到查询所有的controller
-                response.sendRedirect(request.getContextPath()+"/manager/showAllEmpController");
+                response.sendRedirect(request.getContextPath()+"/manager/safe/showAllEmpController");
             }else {
                 //登陆失败，跳转到登陆页面
                 response.sendRedirect(request.getContextPath()+"/login.html");
