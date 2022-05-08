@@ -30,4 +30,18 @@ public class EmpServiceImpl implements EmpService {
         }
         return emps;
     }
+
+    @Override
+    public int removeEmp(int id) {
+        int result = 0;
+        try {
+            DbUtils.begin();
+            result = empDao.delete(id);
+            DbUtils.commit();
+        } catch (Exception e) {
+            DbUtils.rollback();
+            e.printStackTrace();
+        }
+        return result;
+    }
 }

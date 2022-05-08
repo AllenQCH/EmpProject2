@@ -3,3 +3,5 @@
 /.idea/
 /offer.iml/
 /workspace.xml
+out
+.gittignore

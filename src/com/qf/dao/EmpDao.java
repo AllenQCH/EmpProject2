@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface EmpDao {
     public List<Emp> selectAll();
+    public int delete(int id);
 }

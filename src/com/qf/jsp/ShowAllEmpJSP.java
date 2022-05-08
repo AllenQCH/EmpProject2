@@ -39,7 +39,7 @@ public class ShowAllEmpJSP extends HttpServlet {
             printWriter.println("<td>"+emp.getName()+"</td>");
             printWriter.println("<td>"+emp.getSalary()+"</td>");
             printWriter.println("<td>"+emp.getAge()+"</td>");
-            printWriter.println("<td>删除</td>");
+            printWriter.println("<td><a href='"+request.getContextPath()+"/manager/safe/removeEmpController?id="+emp.getId()+"'>删除</a></td>");
             printWriter.println("<td>修改</td>");
             printWriter.println("</tr>");
         }

@@ -22,4 +22,15 @@ public class EmpDaoImpl implements EmpDao {
         }
         return null;
     }
+
+    @Override
+    public int delete(int id) {
+        try {
+            int result=queryRunner.update(DbUtils.getConnection(),"delete from emp where id =?",id);
+            return result;
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return 0;
+    }
 }
